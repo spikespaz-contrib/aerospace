@@ -2,7 +2,7 @@
 cd "$(dirname "$0")"
 source ./script/setup.sh
 
-build_version="0.0.0-SNAPSHOT"
+build_version="0.17.1-bugfix"
 codesign_identity="aerospace-codesign-certificate"
 while test $# -gt 0; do
     case $1 in
